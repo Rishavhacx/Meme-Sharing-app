@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/face"
+            android:contentDescription="@string/todo"
+            app:tint="@color/white" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/purple_500"
+        android:background="@drawable/white_circle"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:text="@string/rishav_hacx" />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_height="5dp"
+        android:background="@drawable/white_circle"
+        >
+
+    </View>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/watch_it_on_your_own_risk_18"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>

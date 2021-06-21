@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MEME WORLD</string>
+    <string name="share">SHARE</string>
+    <string name="next">NEXT</string>
+    <string name="text"> ➡ Click next to change the meme</string>
+    <string name="text1">➡ Click Share to send it to your friends!!❤💥</string>
+    <string name="todo">TODO</string>
+    <string name="rishav_hacx">RISHAV HACX</string>
+    <string name="watch_it_on_your_own_risk_18">Watch it on your own risk (18+)</string>
+    <string name="click_next_to_see_meme">Click next to see meme</string>
+</resources>
